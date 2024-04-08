@@ -5,9 +5,19 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../js/base.js"></script>
+    <link rel="stylesheet" href="../../css/navbar.css">
     <link rel="stylesheet" href="../../css/assignment_title.css">
+
+    <script src="../../js/bottom.js"></script>
+    <link rel="stylesheet" href="../../css/footer.css">
+
+
 </head>
 <body>
+<div nav-include-path="../../templates/layout/navbar.html">
+    <script>LoadNAVBAR();</script>
+</div>
 <div class = "title_div">
     <div class="hw_title">
         <p class="title_name">과제 부여하기</p>
@@ -39,6 +49,9 @@
         <p class ="hw_content">클래스 속성을 이용해서 은행계좌 만들기</p>
         <p class ="hw_deadline">3월 27일 월요일 19시까지</p>
     </div>
+</div>
+<div footer-include-path="../../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
 </div>
 
 </body>

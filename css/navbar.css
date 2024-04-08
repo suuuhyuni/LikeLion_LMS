@@ -17,8 +17,11 @@
 }
 
 .navbar{
+    width: 1440px;
     background-color: var(--color-main-black);
     display:flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .kau_likelion_logo{
     width:40px;
